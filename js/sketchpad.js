@@ -28,7 +28,7 @@ function dimensionCalc(length) {
 function newGrid() {
 	var gridSize = prompt("Enter a new table size up to 16.");
 				clearGrid();
-				if (gridSize < 16) {
+				if (gridSize <= 16) {
 					makeTable(gridSize);						
 				} else {
 					console.log("I don't understand");
